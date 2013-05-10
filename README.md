@@ -11,9 +11,6 @@ Ayrton Araújo &lt;root@ayrtonaraujo.net&gt;
 
 Thiago Andrade &lt;7hi4g0@gmail.com&gt;
 
-## Revisão:
-Vanilton Pinheiro &lt;vanilton18@gmail.com&gt;
-
 ## License 
 
 (The MIT License)

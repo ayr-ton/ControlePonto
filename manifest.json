@@ -4,10 +4,9 @@
 	"name": "Ponto Flexível",
 	"description": "Aplicativo para calcular fim de expediente de trabalho para jornadas flexíveis.",
 	"version": "0.0.3",
-
 	"permissions": [
-		"tabs",
 		"contextMenus",
+		"tabs",
 		"storage"
 	],
 	"icons": {  "16": "images/icon.png",
@@ -17,5 +16,8 @@
 		"default_title": "Ponto Flexível",
 		"default_icon": "images/icon.png",
 		"default_popup": "popup.html"
-	}
-}
+	},
+	"background": {
+    	"scripts": ["background.js"]
+  	}
+}  
