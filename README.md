@@ -7,12 +7,12 @@ Extensão para cálculo de jornada de trabalho flexível desenvolvida para Googl
 [https://github.com/7hi4g0/ControlePonto/issues](https://github.com/7hi4g0/ControlePonto/issues)
 
 ## Desenvolvedores:
-Ayrton Araújo <root@ayrtonaraujo.net>
+Ayrton Araújo &lt;root@ayrtonaraujo.net&gt;
 
-Thiago Andrade <7hi4g0@gmail.com>
+Thiago Andrade &lt;7hi4g0@gmail.com&gt;
 
 ## Revisão:
-Vanilton Pinheiro <vanilton18@gmail.com>
+Vanilton Pinheiro &lt;vanilton18@gmail.com&gt;
 
 ## License 
 
