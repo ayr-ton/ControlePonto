@@ -1,8 +1,6 @@
 .calculaHora
 {
 	background-color: #f5f5f5;
-	display: -webkit-flex;
-	-webkit-flex-direction: column;
 }
 
 	.calculaHora header
@@ -28,17 +26,17 @@
 			margin: 0px;
 		}
 
+      .calculaHora header menu label, #dia 
+      {
+        display: none;  
+      }
+      
 			.calculaHora header menu button
 			{
 				float: right;
+			  display: none;
 			}
 
-	.calculaHora .principal
-	{
-		display: -webkit-flex;
-		-webkit-align-items: flex-start;
-		-webkit-justify-content: center;
-	}
 
 	.calculaHora h2
 	{
@@ -74,8 +72,6 @@
 
 	.calculaHora #mensagem
 	{
-		width: 500px;
-		height: 300px;
 		padding: 5px;
 		margin: 5px;
 		border: 2px solid #dbdbdb;

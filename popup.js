@@ -45,11 +45,11 @@ PONTO.atualiza = function () {
 		diferencaExpediente = horaSaida - minutoExpediente;
 
 		if (diferencaExpediente === 0) {
-			PONTO.dom.mensagem.innerHTML = "<h1>Expediente correto</h1><span>Você até pode fingir, mas não acredito!</span>";
+			PONTO.dom.mensagem.innerHTML = "<h2>Expediente correto</h2><span>Você até pode fingir, mas não acredito!</span>";
 		} else if (diferencaExpediente > 0) {
-			PONTO.dom.mensagem.innerHTML = "<h1>Regime extraordinário</h1><span>Cuidado, não deixe seu banco alcançar mais de 40 horas positivas.</span>";
+			PONTO.dom.mensagem.innerHTML = "<h2>Regime extraordinário</h2><span>Cuidado, não deixe seu banco alcançar mais de 40 horas positivas.</span>";
 		} else {
-			PONTO.dom.mensagem.innerHTML = "<h1>Saída antecipada</h1><span>Informe seus superiores.<br/>Não acumule mais de 10 horas negativas no seu banco.</span>";
+			PONTO.dom.mensagem.innerHTML = "<h2>Saída antecipada</h2><span>Informe seus superiores.<br/>Não acumule mais de 10 horas negativas no seu banco.</span>";
 		}
 	}
 };
